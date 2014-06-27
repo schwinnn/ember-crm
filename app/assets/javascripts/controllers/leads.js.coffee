@@ -1,7 +1,6 @@
 App.LeadsController = Ember.ArrayController.extend
   sortProperties: ['firstName', 'lastName']
 
-  search: 'n'
   leads: ( ->
     if @get('search') then @get('searchedLeads') else @
   ).property('search', 'searchedLeads')
