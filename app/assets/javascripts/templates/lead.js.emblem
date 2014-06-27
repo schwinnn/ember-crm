@@ -36,4 +36,3 @@ unless isEditing
       input type='submit' value='Save Changes' click='saveChanges'
       if showUnsavedMessage
         .unsaved unsaved changes
-  

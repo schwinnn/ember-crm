@@ -18,6 +18,7 @@ class Api::V1::LeadsController < ApplicationController
   end
 
   def destroy
+    sleep 2
     respond_with lead.destroy
   end
 
